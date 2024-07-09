@@ -3,6 +3,7 @@ class Tombola:
   winner:bool = False
   all_numbers = list(range(1,91))
 
+  # This starts the game, and print all the players steps till someone win
   @staticmethod
   def start_game(cartelle:list)->None:
     print("------------ BENVENUTI AL GIOCO DELLA TOMBOLA ------------")
