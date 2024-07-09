@@ -1,17 +1,8 @@
-# Modellare estrazione di numeri (tombola).
+# Create at least a Cartella Object and pass in a name param, 
+# pass the list of players to the start_game() function
+# the first that found all the 15 numbers on its card will win
 
-# Ho una classe Cartella che contiene 15 numeri diversi tra loro e casuali tra 1 e 90. → Meglio il set causa unicità
-
-# Creo tre oggetti Cartella.
-
-# Ho un elenco di numeri che rappresenta l'estrazione (che immaginiamo fatta da un altro) e per noi di fatto sarà una costante.
-#  → Faccio una lista (a livello globale) di 90 numeri tutti diversi (posso riusare l'approccio del passo precedente)
-
-# Scorro l'elenco di numeri simulando l'estrazione:
-# - Ad ogni passo stampo la situazione delle mie tre cartelle.
-# - In particolare voglio che mi venga detto quanti numeri mi
-#   mancano per vincere (in ciascuna cartella)
-# - Quando vinco produco un messaggio "Ho vinto in n passi"
+# start the program and see who will win!
 
 from tombola import Tombola
 from cartella import Cartella
