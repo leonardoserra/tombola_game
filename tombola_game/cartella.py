@@ -1,3 +1,4 @@
+#this is the class of the player's card
 import random
 
 class Cartella:
