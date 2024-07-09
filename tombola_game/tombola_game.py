@@ -7,7 +7,7 @@
 from tombola import Tombola
 from cartella import Cartella
 
-players:list = [
+players:list[Cartella] = [
   Cartella('Leonardo'),
   Cartella('Fabio'),
   Cartella('Federico'),
